@@ -26,16 +26,16 @@ class Book{
         this.numOfCopies = numOfCopies;
     }
 
-    public Book (String bookTitle, String author, String numOfString){
+    public Book (String bookTitle, String author, String numOfString, int numOfCopies){
 
     }
     public void display(){
-        System.out.println("---book details------");
+        System.out.println("*****Book Details*****");
         System.out.println("bookTitle: " + bookTitle);
         System.out.println("author: " + author);
         System.out.println("isbn: " + isbn);
         System.out.println("numOfCopies: " + numOfCopies);
-        System.out.println("---------------------");
+        System.out.println("**********************");
     }
 }
 
