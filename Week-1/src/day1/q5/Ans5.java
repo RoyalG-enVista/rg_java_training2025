@@ -2,14 +2,11 @@ package day1.q5;
 public class Ans5 {
     //find the logic of leap year
     public static boolean isLeapYear(int year){
-        if( (year%400==0 || year%100!=0) && (year%4==0))
-            return true;
-        else
-            return false;
+        return (year % 400 == 0 || year % 100 != 0) && (year % 4 == 0);
     }
     //track no of days in a month
     public static  int noOfDays(int month, int year){
-        int arr[]={-1,31,28,31,30,31,30,31,31,30,31,30,31};
+        int[] arr ={-1,31,28,31,30,31,30,31,31,30,31,30,31};
         if(month==2){
             if(isLeapYear(year)){
                 arr[2]=29;

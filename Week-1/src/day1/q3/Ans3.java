@@ -22,7 +22,7 @@ public class Ans3 {
     public static void main(String[] args) {
 
         // Original array
-        int arr[] = {11, 22, 33, 44, 55};
+        int[] arr = {11, 22, 33, 44, 55};
 
         // Get the copy of the original array
         int[] copyOfArr = ArrayOp.copyOf(arr);

@@ -2,8 +2,8 @@ package day2.q2;
 
 public class BookStore {
     private final int SIZE;
-    private String bookStoreName;
-    private Book[] books;
+    private final String bookStoreName;
+    private final Book[] books;
 
     public BookStore(String bookStoreName, int size) {
         SIZE=size;

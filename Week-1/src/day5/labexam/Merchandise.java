@@ -2,9 +2,9 @@ package day5.labexam;
 import  java.util.*;
 public class Merchandise {
 
-    private String itemCode;
-    private int quantity;
-    private double unitPrice;
+    private final String itemCode;
+    private final int quantity;
+    private final double unitPrice;
 
     public Merchandise(String itemCode, int quantity, double unitPrice) {
         this.itemCode = itemCode;

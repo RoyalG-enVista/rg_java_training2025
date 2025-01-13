@@ -4,9 +4,9 @@ package day2.q1;
  * Implement following UML diagram, Write a program to test Employee class
  */
 class Employee{
-    private int id;
-    private String firstName;
-    private String lastName;
+    private final int id;
+    private final String firstName;
+    private final String lastName;
     private int salary;
 
     public Employee(int id, String firstName, String lastName, int salary) {

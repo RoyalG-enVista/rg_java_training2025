@@ -12,7 +12,7 @@ public class Ans2 {
         double average = 0.0d;
         double total = 0.0d;
 
-        int grades[] = new int[numOfStudents];
+        int[] grades = new int[numOfStudents];
         int counter = 0;
         while(counter < numOfStudents){
             System.out.println("Enter grade for student " + (counter+1));
