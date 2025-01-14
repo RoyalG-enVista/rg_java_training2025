@@ -1,4 +1,4 @@
-package day3.q3;
+package day3_4.q3;
 
 import java.io.Serializable;
 

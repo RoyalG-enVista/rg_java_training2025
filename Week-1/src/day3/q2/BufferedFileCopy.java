@@ -1,4 +1,4 @@
-package day3.q2;
+package day3_4.q2;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
