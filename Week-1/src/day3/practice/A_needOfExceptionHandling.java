@@ -1,4 +1,4 @@
-package day3_4.practice;
+package day3.practice;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
