@@ -1,0 +1,3 @@
+module Invoice {
+    requires invoice;
+}

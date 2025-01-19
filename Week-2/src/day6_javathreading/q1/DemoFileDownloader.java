@@ -37,6 +37,11 @@ class  DownloadManager{
         System.out.println(Thread.currentThread().getName()+ " is download done " + url);
     }
 }
+
+class  FileDownloadTask {
+    
+}
+
 public class DemoFileDownloader {
     public static void main(String[] args) {
         List<String> urls = FileUtil.readFiles("D:\\korber_java_backend\\rg_java_training2025\\Week-2\\link.txt");
