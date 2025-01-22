@@ -1,0 +1,17 @@
+package com.labexam.q2jdbc.customer.service;
+
+import com.labexam.q2jdbc.customer.dao.Customer;
+
+import java.util.List;
+
+public interface CustomerService {
+
+    public List<Customer> allEmp() ;
+
+    List<Customer> allCust();
+
+    public Customer getCustById(int id);
+    public Customer addCust(Customer customer);
+
+
+}

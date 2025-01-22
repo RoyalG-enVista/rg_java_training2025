@@ -1,0 +1,21 @@
+package com.demo;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupitor.api.*;
+
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+public class CalculatorTest {
+
+    private Calculator calculator = null;
+
+    @BeforeEach
+    public void before(){
+        calculator = new Calculator();
+    }
+
+    public void addTest(){
+        int result = calculator.add(1, 2);
+        assertEquals(3, result);
+    }
+}
