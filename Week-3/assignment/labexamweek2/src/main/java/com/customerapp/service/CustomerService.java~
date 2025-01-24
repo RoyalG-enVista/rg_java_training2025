@@ -1,0 +1,9 @@
+package com.customerapp.service;
+
+import com.customerapp.dao.Customer;
+
+public interface CustomerService {
+ Customer allCust();
+ Customer getCustById(int id);
+ Customer addCust(Customer customer);
+}

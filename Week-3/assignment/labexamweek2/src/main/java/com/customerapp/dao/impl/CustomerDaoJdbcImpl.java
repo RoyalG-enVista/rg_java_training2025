@@ -1,9 +1,8 @@
-package com.labexam.q2jdbc.customer.dao.impl;
+package com.customerapp.dao.impl;
 
-import com.labexam.q2jdbc.customer.dao.Customer;
-import com.labexam.q2jdbc.customer.dao.CustomerDao;
-import com.labexam.q2jdbc.customer.exception.DaoException;
-import com.labexam.q2jdbc.customer.factory.ConnectionFactory;
+import com.customerapp.dao.Customer;
+import com.customerapp.dao.CustomerDao;
+import com.customerapp.factory.ConnectionFactory;
 
 import java.sql.*;
 import java.util.LinkedList;
@@ -29,13 +28,13 @@ public class CustomerDaoJdbcImpl implements CustomerDao {
                 customer.add(new Customer(rs.getInt("id"),
                         rs.getString("name"),
                         rs.getString("address"),
-                        rs.getLong("phoneNumber")));
+                        rs.getString("phoneNumber")));
             };
 
         }
 
         catch (SQLException e) {
-            throw new RuntimeException(e);// ex wrapping and rethrowing!
+           e.printStackTrace();
         }
         return customer;
     }
@@ -54,7 +53,7 @@ public class CustomerDaoJdbcImpl implements CustomerDao {
                         rs.getInt("id"),
                         rs.getString("name"),
                                 rs.getString("address"),
-                                rs.getLong("phoneNumber"));
+                                rs.getString("phoneNumber"));
             }
 
         } catch (SQLException e) {
@@ -70,8 +69,9 @@ public class CustomerDaoJdbcImpl implements CustomerDao {
             prepareStatement.setInt(1, customer.getId());
             prepareStatement.setString(2, customer.getName());
             prepareStatement.setString(3, customer.getAddress());
-            prepareStatement.setLong(4, customer.getPhoneNumber());
+            prepareStatement.setString(4, customer.getPhoneNumber());
 
+            prepareStatement.executeUpdate();
             } catch (SQLException e){
             throw new RuntimeException();
         }

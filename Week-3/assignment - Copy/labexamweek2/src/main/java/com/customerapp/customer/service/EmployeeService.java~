@@ -1,0 +1,16 @@
+package com.labexam.q2jdbc.customer.service;
+
+
+import com.empapp.dao.Employee;
+import com.labexam.q2jdbc.customer.dao.Customer;
+
+import java.sql.SQLException;
+import java.util.List;
+
+public interface EmployeeService {
+    public List<Customer> allEmp() ;
+    public Customer getCustById(int id);
+    public Customer addCust(Customer employee);
+
+}
+

@@ -1,4 +1,4 @@
-package com.labexam.q2jdbc.customer.web;
+package com.customerapp.customer.web;
 
 import com.labexam.q2jdbc.customer.dao.Customer;
 import com.labexam.q2jdbc.customer.dao.CustomerDao;
