@@ -1,0 +1,25 @@
+package com.empapp.web;
+
+import com.empapp.persistance.Employee;
+import com.empapp.service.EmployeeService;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.stereotype.Service;
+
+import java.security.Provider;
+
+public class Main {
+
+    public static void main(String[] args) {
+        ApplicationContext context = new ClassPathXmlApplicationContext("demo.xml");
+
+
+        Service service = (Service) context.getBean("employee");
+
+        service.addEmployee(new Employee(1, "virat", "logistics", 10000));
+        service.getAllEmployees().forEach(System.out::println);
+        service.addEmployee(new Employee(2, "Sachin", "Cricketer", 11000));
+        service.getEmployeeById(1).forEach(System.out::println);
+        
+    }
+}

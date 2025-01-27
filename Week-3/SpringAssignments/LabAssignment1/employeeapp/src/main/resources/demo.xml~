@@ -9,7 +9,7 @@
 
 
     <bean id="employeeService" class="com.empapp.service.employeeService">
-        <property name="dao" ref="d"/>
+        <property name="employeeDao" ref="employeeDao"/>
     </bean>
 
 </beans>

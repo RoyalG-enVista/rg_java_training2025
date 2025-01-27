@@ -1,0 +1,16 @@
+package com.sp.bean;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Main {
+    public static void main(String[] args) {
+
+        String configPath = "applicationContext.xml";
+        ApplicationContext context = new ClassPathXmlApplicationContext(configPath);
+
+        Student std = (Student) context.getBean("student");
+        std.display();
+
+    }
+}
