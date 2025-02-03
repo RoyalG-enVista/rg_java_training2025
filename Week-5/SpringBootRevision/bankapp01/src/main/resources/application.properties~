@@ -1,0 +1,3 @@
+spring.application.name=bankapp01
+server.port=8081
+server.jpa.show-sql=true

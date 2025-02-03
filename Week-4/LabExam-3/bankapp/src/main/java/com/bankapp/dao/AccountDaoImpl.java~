@@ -1,0 +1,26 @@
+package com.bankapp.dao;
+
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.PersistenceContext;
+import jakarta.transaction.Transactional;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public class AccountDaoImpl implements AccountDao {
+
+    @PersistenceContext
+    private EntityManager entityManager;
+
+
+    @Transactional
+    @Override
+    public void update(Account account) {
+        entityManager.merge(account);
+    }
+
+
+    @Override
+    public Account find(int id) {
+        return entityManager.find(Account.class, id);
+    }
+}
