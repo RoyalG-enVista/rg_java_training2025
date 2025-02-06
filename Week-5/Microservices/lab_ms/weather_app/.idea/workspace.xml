@@ -5,17 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22f079d7-b8fe-4428-9892-1887f7cdeeef" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../currency_app/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../currency_app/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../currency_app/.idea/currency_app.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../currency_app/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../currency_app/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../currency_app/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../currency_app/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../currency_app/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ms_example/ms1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ms_example/ms1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wservice/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wclient/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/wclient/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wservice/src/main/resources/application.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,17 +29,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/korber_java_backend/rg_java_training2025/Week-5/Microservices/ms_example/ms1&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.EurekaApplication.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.codeium.enabled": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/korber_java_backend/rg_java_training2025/Week-5/Microservices/lab_ms/weather_app",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RunManager" selected="Application.EurekaApplication">
+    <configuration name="EurekaApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eureka.EurekaApplication" />
+      <module name="eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WclientApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.wclient.wclient.WclientApplication" />
       <module name="wclient" />
@@ -59,6 +73,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EurekaApplication" />
         <item itemvalue="Application.WclientApplication" />
       </list>
     </recent_temporary>
