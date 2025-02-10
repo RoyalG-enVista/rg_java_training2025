@@ -1,19 +1,17 @@
 spring:
-  application:
-    name: wclient
-  cloud:
-    discovery:
-      enabled: true
+    application:
+        name: wclient
+
 server:
-  port: 8085
+    port: 8085
 
 eureka:
+  port: 8761
   instance:
+    hostname: localhost
     prefer-ip-address: true
   client:
-    register-with-eureka: true
     fetch-registry: true
+    register-with-eureka: true
     service-url:
-      defaultZone: http://localhost:8070/eureka
-
-
+      defaultZone: http://${eureka.instance.hostname}:${eureka.port}/eureka/

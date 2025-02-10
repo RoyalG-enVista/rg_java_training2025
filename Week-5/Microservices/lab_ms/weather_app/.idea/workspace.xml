@@ -4,14 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22f079d7-b8fe-4428-9892-1887f7cdeeef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/wservice/src/main/resources/application.yaml" afterDir="false" />
+    <list default="true" id="d663465c-34e9-4588-976a-a4f18a2bbd3e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wclient/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/wclient/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wservice/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wclient/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wclient/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wclient/src/main/java/com/wclient/wclient/serviceproxy/WeatherServiceProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/wclient/src/main/java/com/wclient/wclient/serviceproxy/WeatherServiceProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wclient/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/wclient/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wservice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wservice/src/main/java/com/wservice/WserviceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/wservice/src/main/java/com/wservice/WserviceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wservice/src/main/java/com/wservice/service/WeatherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/wservice/src/main/java/com/wservice/service/WeatherService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wservice/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/wservice/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ms_product_coponapp_oauth2/productapp-07-02.postman_collection.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ms_product_coponapp_oauth2/productapp-07-02.postman_collection.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,10 +28,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 5
-}</component>
-  <component name="ProjectId" id="2sYoSCMIbVT7qmCRHXaTS2Zz18i" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2sqPX0cCTEQoC2ecZSODlScko6q" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -32,25 +40,39 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.EurekaApplication.executor": "Run",
+    "Application.GatewayApplication.executor": "Run",
+    "Application.WclientApplication.executor": "Run",
+    "Application.WserviceApplication.executor": "Run",
+    "Application.com.wclient.WclientApplication.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "com.codeium.enabled": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/korber_java_backend/rg_java_training2025/Week-5/Microservices/lab_ms/weather_app",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "last_opened_file_path": "D:/korber_java_backend/rg_java_training2025/Week-5/lab_exam_spring_ms"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.EurekaApplication">
+  <component name="RunManager" selected="Application.WserviceApplication">
     <configuration name="EurekaApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.eureka.EurekaApplication" />
       <module name="eureka" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.eureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gateway.GatewayApplication" />
+      <module name="gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gateway.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,21 +93,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WserviceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wservice.WserviceApplication" />
+      <module name="wservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.wclient.WclientApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wclient.WclientApplication" />
+      <module name="wclient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wclient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EurekaApplication" />
+        <item itemvalue="Application.WserviceApplication" />
+        <item itemvalue="Application.GatewayApplication" />
         <item itemvalue="Application.WclientApplication" />
+        <item itemvalue="Application.EurekaApplication" />
+        <item itemvalue="Application.com.wclient.WclientApplication" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="22f079d7-b8fe-4428-9892-1887f7cdeeef" name="Changes" comment="" />
-      <created>1738641869969</created>
+      <changelist id="d663465c-34e9-4588-976a-a4f18a2bbd3e" name="Changes" comment="" />
+      <created>1739180169654</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1738641869969</updated>
+      <updated>1739180169654</updated>
     </task>
     <servers />
   </component>
