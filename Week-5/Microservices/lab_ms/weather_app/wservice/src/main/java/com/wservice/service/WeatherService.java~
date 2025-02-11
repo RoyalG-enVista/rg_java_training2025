@@ -20,6 +20,6 @@ public class WeatherService {
         else
             weatherInfo="too cold to go outside";
 
-        return weatherInfo+ ": "+portNumber;
+        return weatherInfo+ ": ";
     }
 }

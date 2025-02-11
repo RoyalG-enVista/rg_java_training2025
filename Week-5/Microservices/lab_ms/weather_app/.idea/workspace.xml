@@ -5,20 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d663465c-34e9-4588-976a-a4f18a2bbd3e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eureka/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wclient/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wclient/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wclient/src/main/java/com/wclient/wclient/serviceproxy/WeatherServiceProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/wclient/src/main/java/com/wclient/wclient/serviceproxy/WeatherServiceProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wclient/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/wclient/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wservice/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wservice/src/main/java/com/wservice/WserviceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/wservice/src/main/java/com/wservice/WserviceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wservice/src/main/java/com/wservice/service/WeatherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/wservice/src/main/java/com/wservice/service/WeatherService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wservice/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/wservice/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ms_product_coponapp_oauth2/productapp-07-02.postman_collection.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ms_product_coponapp_oauth2/productapp-07-02.postman_collection.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,10 +19,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2sqPX0cCTEQoC2ecZSODlScko6q" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -50,7 +41,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/korber_java_backend/rg_java_training2025/Week-5/lab_exam_spring_ms"
+    "last_opened_file_path": "D:/korber_java_backend/rg_java_training2025/Week-5/Microservices/lab_ms/weather_app"
   }
 }]]></component>
   <component name="RunManager" selected="Application.WserviceApplication">
@@ -139,5 +130,15 @@
       <updated>1739180169654</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="com.netflix.discovery.shared.transport.TransportException" package="com.netflix.discovery.shared.transport" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
