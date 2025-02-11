@@ -24,6 +24,6 @@ public class WeatherClientController {
     @GetMapping(path = "/weatherclient/{temp}")
     public WeatherInfoDto getWeatherInfo( @PathVariable int temp) {
          String weatherInfo = weatherServiceProxy.getWeatherInfo(temp);
-         return new WeatherInfoDto(weatherInfo, portNumber, "Hello from weather client");
+         return new WeatherInfoDto(weatherInfo, portNumber, "Hello");
     }
 }

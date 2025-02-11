@@ -10,5 +10,4 @@ import lombok.NoArgsConstructor;
 public class WeatherInfoDto {
     private String weatherInfo;;
     private int portNumber;
-    private String message;
 }

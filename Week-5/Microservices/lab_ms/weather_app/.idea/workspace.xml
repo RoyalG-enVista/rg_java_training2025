@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d663465c-34e9-4588-976a-a4f18a2bbd3e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wservice/src/main/java/com/wservice/service/WeatherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/wservice/src/main/java/com/wservice/service/WeatherService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wclient/src/main/java/com/wclient/wclient/controller/WeatherClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/wclient/src/main/java/com/wclient/wclient/controller/WeatherClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wclient/src/main/java/com/wclient/wclient/dto/WeatherInfoDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/wclient/src/main/java/com/wclient/wclient/dto/WeatherInfoDto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,10 +39,10 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/korber_java_backend/rg_java_training2025/Week-5/Microservices/lab_ms/weather_app"
+    "last_opened_file_path": "D:/korber_java_backend_Rajeev/Korber_java_backend_25_code/week5/spring_testing/productapp-test-todo"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.WserviceApplication">
+  <component name="RunManager" selected="Application.WclientApplication">
     <configuration name="EurekaApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.eureka.EurekaApplication" />
       <module name="eureka" />
@@ -112,9 +110,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WclientApplication" />
         <item itemvalue="Application.WserviceApplication" />
         <item itemvalue="Application.GatewayApplication" />
-        <item itemvalue="Application.WclientApplication" />
         <item itemvalue="Application.EurekaApplication" />
         <item itemvalue="Application.com.wclient.WclientApplication" />
       </list>
