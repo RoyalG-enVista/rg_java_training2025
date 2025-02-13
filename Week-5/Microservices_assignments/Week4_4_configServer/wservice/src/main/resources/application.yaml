@@ -11,14 +11,14 @@ eureka:
         fetch-registry: true
         service-url:
             defaultZone: http://localhost:8761/eureka
-
 management:
     tracing:
         sampling:
-            probability: 1
-    logging:
-        pattern:
-            level: "%5p [${spring.application.name:},%X{traceId:-},%X{spanId:-}]"
+            probability: 1.0
+
+logging:
+    pattern:
+        level: "%5p [${spring.application.name:},%X{traceId:-},%X{spanId:-}]"
 
     endpoints:
         web:

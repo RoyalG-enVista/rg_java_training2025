@@ -3,7 +3,8 @@ spring:
     config:
       server:
         git:
-          uri: file:///C:/propfiles
+#          uri: file:///C:/propfiles
+          uri: file:///:/propfiles
           clone-on-start: true
           default-label: master
 
