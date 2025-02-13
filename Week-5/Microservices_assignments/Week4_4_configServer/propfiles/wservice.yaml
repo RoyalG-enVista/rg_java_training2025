@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: wservice
+server:
+  port: 8082
+
+app:
+  name: default config wservice

@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: wclient
+server:
+  port: 8085
+
+app:
+  name: default config wclient
