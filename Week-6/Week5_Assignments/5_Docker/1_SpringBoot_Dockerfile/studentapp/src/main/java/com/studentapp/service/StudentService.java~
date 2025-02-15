@@ -1,0 +1,11 @@
+package com.studentapp.service;
+
+public interface StudentService {
+
+    private int id;
+    private String name;
+    private int age;
+    private String city;
+
+
+}

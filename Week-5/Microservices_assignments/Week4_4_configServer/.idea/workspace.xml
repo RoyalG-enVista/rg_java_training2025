@@ -7,12 +7,6 @@
     <list default="true" id="d663465c-34e9-4588-976a-a4f18a2bbd3e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver/src/main/java/com/configserver/ConfigserverApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/src/main/java/com/configserver/ConfigserverApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wclient/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wclient/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wservice/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wservice/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/wservice/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +42,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/korber_java_backend/rg_java_training2025/Week-5/Microservices_assignments/Week4_4_configServer/propfiles"
+    "last_opened_file_path": "D:/korber_java_backend/rg_java_training2025/Week-6/Week5_Assignments/5_Docker/weather_app"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -56,7 +50,7 @@
       <recent name="D:\korber_java_backend\rg_java_training2025\Week-5\Microservices_assignments\Week4_4_configServer\propfiles" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConfigserverApplication">
+  <component name="RunManager" selected="Application.EurekaApplication">
     <configuration name="ConfigserverApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.configserver.ConfigserverApplication" />
       <module name="configserver" />
@@ -124,8 +118,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ConfigserverApplication" />
         <item itemvalue="Application.EurekaApplication" />
+        <item itemvalue="Application.ConfigserverApplication" />
         <item itemvalue="Application.WserviceApplication" />
         <item itemvalue="Application.WclientApplication" />
         <item itemvalue="Application.GatewayApplication" />
