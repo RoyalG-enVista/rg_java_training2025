@@ -23,6 +23,7 @@ public class StudentController {
         //get all students
         @GetMapping("/students")
         public List<Student> getAllStudents() {
+                System.out.println(service.getAllStudents());
                 return service.getAllStudents();
         }
 

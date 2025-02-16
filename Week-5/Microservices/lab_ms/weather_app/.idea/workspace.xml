@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d663465c-34e9-4588-976a-a4f18a2bbd3e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wclient/src/main/java/com/wclient/wclient/controller/WeatherClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/wclient/src/main/java/com/wclient/wclient/controller/WeatherClientController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wclient/src/main/java/com/wclient/wclient/dto/WeatherInfoDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/wclient/src/main/java/com/wclient/wclient/dto/WeatherInfoDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Week-6/Week5_Assignments/5_Docker/1_SpringBoot_Dockerfile/studentapp/src/main/java/com/studentapp/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Week-6/Week5_Assignments/5_Docker/1_SpringBoot_Dockerfile/studentapp/src/main/java/com/studentapp/controller/StudentController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,10 +38,10 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/korber_java_backend_Rajeev/Korber_java_backend_25_code/week5/spring_testing/productapp-test-todo"
+    "last_opened_file_path": "D:/korber_java_backend/rg_java_training2025/Week-5/SpringBoot_JUnitTest/empapp"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.WclientApplication">
+  <component name="RunManager" selected="Application.WserviceApplication">
     <configuration name="EurekaApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.eureka.EurekaApplication" />
       <module name="eureka" />
@@ -110,8 +109,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WclientApplication" />
         <item itemvalue="Application.WserviceApplication" />
+        <item itemvalue="Application.WclientApplication" />
         <item itemvalue="Application.GatewayApplication" />
         <item itemvalue="Application.EurekaApplication" />
         <item itemvalue="Application.com.wclient.WclientApplication" />
